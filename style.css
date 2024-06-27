@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+.header {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)),
+       
+        url(img/reloj.png);
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header-content{
+color: #222221;
+font-size: 25px;
+font-weight: 500;
+text-transform: uppercase
+;
+
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: right;
+    list-style: none;
+}
+.menu .navbar ul li a{
+font-size: 18px;
+padding: 10px;
+color: #fdc517;
+display: block;
+font-size: 600;
+font-weight: bold;
+}
+
+.menu .navbar ul li a:hover{
+   color: #2b3e49;
+    }
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+.inicio-content{
+    text-align: center;
+}
+
+.inicio-content h2{
+    font-size: 94px;
+    line-height: 80px;
+    color: #393b3c;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.inicio-content p{
+    font-size: 43px;
+    color: #fdc517;
+    padding: 0 0px;
+    margin-bottom: 25px;
+    text-align: left;
+   
+}
+
+.botones-container {
+    display: flex; 
+    justify-content: left;
+}
+
+.boton{
+    font-size: 25px;
+    color: #2d2e2d;
+    padding: 30px 20px;
+    margin: 0;
+    text-align: left;
+    display: block;
+    width: 38%; 
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+.botonv {
+    font-size: 30px;
+    color: #161615;
+    padding: 30px 25px;
+    margin: 0;
+    text-align: left;
+    display: block;
+    width: 0%;
+    box-sizing: border-box;
+    border: none; 
+    background-color: #ffc107;
+    background-image: url('img/arrow-27324.svg'); 
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+}
+ 
+.about{
+    display: flex;
+
+}
+
+.about-1{
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #393b3c;
+}
+
+h2 {
+    font-size: 40px; 
+    color: #ffc107;
+    font-weight: bold; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #ffc107; 
+}
+
+p {
+    font-weight: bold;
+    color: white; 
+    font-size: 24px;
+    text-align: center;
+}
+
+.about-2{
+    background-image: url(img/yate.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 1410px;
+    
+}
+
+.about-3{
+    display: flex;
+  
+
+}
+
+
+
+.about-4 {
+    width: 50%;
+    padding: 100px 100px 100px 100px;
+    background-color: #634248;
+    margin-left: auto; 
+}
+
+.about-5 {
+    background-image: url('img/escalista.png');
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 90%;
+    height: 1075px;
+}
+.a1 {
+    font-size: 40px; 
+    color: #f5f4f2;
+    font-weight: bold; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #634248; 
+}
+
+.a2{
+    font-size: 40px; 
+    color: #ffc107;
+    font-weight: bold; 
+    text-align: center; 
+    margin-bottom: 20px; 
+   
+}
+
+.a3{
+    font-size: 16px; 
+    color: #f5f4f2;
+    font-weight: normal;
+}
+
+.select {
+    background-color: #e7c26c; 
+    color: #131212; 
+    font-size: 22px; 
+    padding: 20px 270px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold; 
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.select:hover {
+    background-color: #ffcd38;
+}
+
+.a4 {
+    text-align: center;
+    color: #ffffff;
+}
+
+.a4 ul {
+    padding-left: 0;
+    list-style-type: circle; 
+}
+
+.a4 li {
+    margin-bottom: 30px; 
+    font-weight: normal;
+}
+
+.frases{
+     background-image: linear-gradient(
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)),
+       
+        url(img/deportista.png);
+
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 110vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-content {
+    display: flex;
+    animation: slide-left 92s infinite; /* Duración total de la animación (3 frases * 30s cada una + 2s de transición) */
+}
+
+.phrase {
+    flex: 0 0 100%; /* Ancho de cada frase (100% del contenedor) */
+    text-align: center;
+    font-size: 24px;
+    font-style: italic;
+    padding: 20px;
+    color: #ffffff; /* Color de texto blanco */
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 2s ease; /* Transición de opacidad y desplazamiento */
+}
+
+/* Animación de desplazamiento */
+@keyframes slide-left {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    33.33%, 66.66% {
+        transform: translateX(-100%);
+    }
+    99.99% {
+        transform: translateX(-200%);
+    }
+}
+
+/* Mostrar frase activa */
+@keyframes show-phrase {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.carousel-content .phrase:nth-child(1) {
+    animation: show-phrase 92s infinite 0s; /* Mostrar la primera frase */
+}
+
+.carousel-content .phrase:nth-child(2) {
+    animation: show-phrase 92s infinite 20s; /* Mostrar la segunda frase después de 30s */
+}
+
+.carousel-content .phrase:nth-child(3) {
+    animation: show-phrase 92s infinite 40s; /* Mostrar la tercera frase después de 60s */
+}
+
+.Informa{
+    width: 100%;
+    padding: 100px 250px 100px 100px;
+    background-color: #2d2e2d;
+}
+
+
+
+.im {
+    background-image: url('img/download.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%; /* Reducir el ancho al 70% del contenedor */
+    height: 500px; /* Ajustar la altura a 500px */
+    margin: 0 auto 50px; /* Centrar horizontalmente y agregar 50px de margen inferior */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente el contenido */
+    align-items: center; /* Centrar verticalmente el contenido */
+}
+
+
+h4{
+    font-size: 23px; 
+    color: #ffc107;
+    font-weight: bold; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    border-bottom: 2px solid #2d2e2d; 
+}
+
+h5{
+    font-weight: normal; 
+    color: white; 
+    font-size: 16px;
+    text-align: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.footer{
+    background-color: #131212;
+    padding-left: 80px 0;
+
+}
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links {
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: #ffc107 ;
+    margin-top: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #2b3e49;
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-links ul li {
+    font-size: 14px;
+    text-decoration: none;
+    color: #ffc107;
+    display: block;
+    margin-bottom: 15px;
+    transition: all, 2s ease;
+}
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #ffc107;
+    display: block;
+    margin-bottom: 15px;
+    transition: all, 2s ease;
+}
+
+.footer-links ul li a:hover{
+   color: #e7c26c;
+   padding: 6px;
+}
+
+.social-link a{
+display: inline-block;
+min-height: 40px;
+width: 40px;
+background-color: #141414;
+margin: 0 10px;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: #f5f4f2;
+transition: all 5s ease;
+}
+
+.social-link a:hover{
+background-color: #fdc517;
+}
+
