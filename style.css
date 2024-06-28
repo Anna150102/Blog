@@ -287,21 +287,20 @@ p {
 
 .carousel-content {
     display: flex;
-    animation: slide-left 92s infinite; /* Duración total de la animación (3 frases * 30s cada una + 2s de transición) */
-}
+    animation: slide-left 92s infinite;}
 
 .phrase {
-    flex: 0 0 100%; /* Ancho de cada frase (100% del contenedor) */
+    flex: 0 0 100%;
     text-align: center;
     font-size: 24px;
     font-style: italic;
     padding: 20px;
-    color: #ffffff; /* Color de texto blanco */
+    color: #ffffff; 
     opacity: 0;
-    transition: opacity 0.5s ease, transform 2s ease; /* Transición de opacidad y desplazamiento */
+    transition: opacity 0.5s ease, transform 2s ease; 
 }
 
-/* Animación de desplazamiento */
+
 @keyframes slide-left {
     0%, 100% {
         transform: translateX(0);
@@ -314,7 +313,7 @@ p {
     }
 }
 
-/* Mostrar frase activa */
+
 @keyframes show-phrase {
     0% {
         opacity: 0;
@@ -331,15 +330,15 @@ p {
 }
 
 .carousel-content .phrase:nth-child(1) {
-    animation: show-phrase 92s infinite 0s; /* Mostrar la primera frase */
+    animation: show-phrase 92s infinite 0s; 
 }
 
 .carousel-content .phrase:nth-child(2) {
-    animation: show-phrase 92s infinite 20s; /* Mostrar la segunda frase después de 30s */
+    animation: show-phrase 92s infinite 20s; 
 }
 
 .carousel-content .phrase:nth-child(3) {
-    animation: show-phrase 92s infinite 40s; /* Mostrar la tercera frase después de 60s */
+    animation: show-phrase 92s infinite 40s; 
 }
 
 .Informa{
@@ -355,13 +354,12 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    width: 70%; /* Reducir el ancho al 70% del contenedor */
-    height: 500px; /* Ajustar la altura a 500px */
-    margin: 0 auto 50px; /* Centrar horizontalmente y agregar 50px de margen inferior */
+    width: 70%; 
+    height: 500px; 
+    margin: 0 auto 50px;
     display: flex;
-    justify-content: center; /* Centrar horizontalmente el contenido */
-    align-items: center; /* Centrar verticalmente el contenido */
-}
+    justify-content: center;
+    align-items: center; }
 
 
 h4{
