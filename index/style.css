@@ -22,7 +22,7 @@ body {
     background-image: linear-gradient(
         rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)),
        
-        url(img/reloj.png);
+        url(/img/reloj.png);
 
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -51,6 +51,24 @@ text-transform: uppercase
     align-items: center;
     justify-content: space-between;
     
+}
+
+.nav-item a {
+    color: #ffc107;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.menu .navbar ul li a:hover {
+    color: #2b3e49;
+}
+.menu-icono{
+    width: 25px;
+
+}
+
+.inicio-content{
+    text-align: center;
 }
 
 .menu .navbar ul li{
@@ -135,7 +153,7 @@ font-weight: bold;
     box-sizing: border-box;
     border: none; 
     background-color: #ffc107;
-    background-image: url('img/arrow-27324.svg'); 
+    background-image: url('/img/arrow-27324.svg'); 
     background-size: 20px 20px;
     background-repeat: no-repeat;
     background-position: 10px center;
@@ -171,7 +189,7 @@ p {
 }
 
 .about-2{
-    background-image: url(img/yate.png);
+    background-image: url(/img/yate.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -196,7 +214,7 @@ p {
 }
 
 .about-5 {
-    background-image: url('img/escalista.png');
+    background-image: url('/img/escalista.png');
     background-position: left center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -264,7 +282,7 @@ p {
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.5)),
        
-        url(img/deportista.png);
+        url(/img/deportista.png);
 
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -350,7 +368,7 @@ p {
 
 
 .im {
-    background-image: url('img/download.png');
+    background-image: url('/img/download.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

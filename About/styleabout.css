@@ -62,7 +62,7 @@ font-weight: bold;
 }
 
 .menu .navbar ul li a:hover{
-   color: #2b3e49;
+   color: #a8d3ec;
     }
 
 #menu {
@@ -151,7 +151,7 @@ p {
 
 .about-5 {
     padding: 10px;
-    background-image: url('img/ref.png');
+    background-image: url('/img/Set.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; /* Asegura que la imagen se vea completa */
